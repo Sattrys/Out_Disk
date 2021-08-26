@@ -9,11 +9,24 @@
 <body>
     <style>
         h3 {background-color: red;}
+        .red_column {
+            background-color: blue;
+            height: 1000px;
+            width: 30px;
+            position: absolute;
+            margin-left: 70%;
+        }
     </style>
+    <div class="red_column"></div>
     <section>
+        <button id="bum_palka">СКАЧАТЬ</button>
         <h1>OUT_DISK</h1>
         <h2>SUKA</h2>
         <h3>hule palish</h3>
     </section>
+    <script>
+        btn = document.getElementById('bum_palka')
+        btn.addEventListener('click', ()=>alert("Hello"))
+    </script>
 </body>
 </html>
