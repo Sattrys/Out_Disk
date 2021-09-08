@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Note_Branch</title>
+    <link rel="stylesheet" href="note_style.css">
 </head>
 <body>
-    There NOTE SIDE, new text added
+    <section    class="wrapper">
+        <section    class="settings">
+            <input type="radio" name="formatMode" id="settings_mode_format_txt">txt
+            <input type="radio" name="formatMode" id="settings_mode_format_json">json
+            <input type="radio" name="encryptionMode" id="settings_mode_encryption_utf-8">UTF-8
+        </section>
+        <section    class="link">
+            <input type="text" name="linkEntry" id="link_entry">
+            <input type="submit" value="FIND LINK">
+        </section>
+        <section    class="entry">
+            <input type="text" name="entryPlace" id="entry_place">
+            <input type="submit" value="SEND TEXT">
+        </section>
+    </section>
 </body>
 </html>

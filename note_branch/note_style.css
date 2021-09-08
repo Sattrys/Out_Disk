@@ -1,0 +1,8 @@
+section .wrapper{
+    
+    position: relative;
+    width: 50%;
+}
+section .settings{
+    background-color: gray;
+}
